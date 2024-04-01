@@ -6,9 +6,16 @@ import axios from 'axios'
 
   const [joke, setJoke] = useState("what is a computer's favourite snack");
   const [punch, setPunch] = useState("computer chips");
-  const [emoji, setEmoji] = useState("");
   
   
+   const getter  = () =>{
+    axios.get("https://official-joke-api.appipot.com/random_joke").then((res)=>{
+setJoke(res.data.setup);
+setPunch(res.data.punchLine);
+
+     })
+}
+
 
   return (
     <>
@@ -27,6 +34,8 @@ import axios from 'axios'
 <p className='laugh d'>😂</p>
 <p className='laugh e'>🤣</p>
 <p className='laugh f'>🤣</p>
+  </div>
+    </>
 )
 }
 export default RandomJoke
