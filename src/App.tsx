@@ -1,5 +1,5 @@
 
-import RandomJokes from './RandomJoke.jsx';
+import RandomJoke from './RandomJoke.jsx';
 
 
 const App = ()=>{
