@@ -1,10 +1,8 @@
-import React, {FC}  from 'react';
-import Jokes from './RandomJokes.tsx';
 
-import {Learn} from './Learn.tsx';
+import Jokes from './RandomJokes.jsx';
 
 
-const App:FC = ()=>{
+const App = ()=>{
   return (
     <>
     < Jokes  />
