@@ -1,6 +1,6 @@
 
 import React, { useState } from 'react'
-import axios from 'axios'
+import Axios from 'axios'
 
   function RandomJoke() {
 
@@ -9,7 +9,7 @@ import axios from 'axios'
   
   
    const getter  = () =>{
-    axios.get("https://official-joke-api.appipot.com/random_joke").then((res)=>{
+    Axios.get("https://official-joke-api.appipot.com/random_joke").then((res)=>{
 setJoke(res.data.setup);
 setPunch(res.data.punchLine);
 
