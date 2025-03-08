@@ -29,7 +29,7 @@ Ensure you have the following installed:
    git clone https://github.com/yourusername/emmanuels-random-joke-app.git
 Your app will be running at http://localhost:3000 by default.
 
-###|Contributing
+### Contributing
 If you'd like to contribute, feel free to fork the repository, make improvements, and submit a pull request. Contributions are welcome!
 
 ### License
